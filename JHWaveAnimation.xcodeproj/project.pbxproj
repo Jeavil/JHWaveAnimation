@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		953BBF331E2DB74900D4391B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 953BBF321E2DB74900D4391B /* main.m */; };
+		953BBF361E2DB74900D4391B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 953BBF351E2DB74900D4391B /* AppDelegate.m */; };
+		953BBF3C1E2DB74900D4391B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953BBF3A1E2DB74900D4391B /* Main.storyboard */; };
+		953BBF3E1E2DB74900D4391B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953BBF3D1E2DB74900D4391B /* Assets.xcassets */; };
+		953BBF411E2DB74900D4391B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953BBF3F1E2DB74900D4391B /* LaunchScreen.storyboard */; };
+		953BBF4C1E2DB74900D4391B /* JHWaveAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 953BBF4B1E2DB74900D4391B /* JHWaveAnimationTests.m */; };
+		953BBF571E2DB74900D4391B /* JHWaveAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 953BBF561E2DB74900D4391B /* JHWaveAnimationUITests.m */; };
+		953BBF691E2DC09E00D4391B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 953BBF681E2DC09E00D4391B /* ViewController.m */; };
+		953BBF6C1E2DC0AA00D4391B /* JHWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 953BBF6B1E2DC0AA00D4391B /* JHWaveView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		953BBF481E2DB74900D4391B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953BBF261E2DB74900D4391B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 953BBF2D1E2DB74900D4391B;
+			remoteInfo = JHWaveAnimation;
+		};
+		953BBF531E2DB74900D4391B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953BBF261E2DB74900D4391B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 953BBF2D1E2DB74900D4391B;
+			remoteInfo = JHWaveAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		953BBF2E1E2DB74900D4391B /* JHWaveAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHWaveAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		953BBF321E2DB74900D4391B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		953BBF341E2DB74900D4391B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		953BBF351E2DB74900D4391B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		953BBF3B1E2DB74900D4391B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		953BBF3D1E2DB74900D4391B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		953BBF401E2DB74900D4391B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		953BBF421E2DB74900D4391B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953BBF471E2DB74900D4391B /* JHWaveAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHWaveAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		953BBF4B1E2DB74900D4391B /* JHWaveAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHWaveAnimationTests.m; sourceTree = "<group>"; };
+		953BBF4D1E2DB74900D4391B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953BBF521E2DB74900D4391B /* JHWaveAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHWaveAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		953BBF561E2DB74900D4391B /* JHWaveAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHWaveAnimationUITests.m; sourceTree = "<group>"; };
+		953BBF581E2DB74900D4391B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953BBF671E2DC09E00D4391B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ViewController/ViewController.h; sourceTree = "<group>"; };
+		953BBF681E2DC09E00D4391B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ViewController/ViewController.m; sourceTree = "<group>"; };
+		953BBF6A1E2DC0AA00D4391B /* JHWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHWaveView.h; path = JHWaveView/JHWaveView.h; sourceTree = "<group>"; };
+		953BBF6B1E2DC0AA00D4391B /* JHWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHWaveView.m; path = JHWaveView/JHWaveView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		953BBF2B1E2DB74900D4391B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953BBF441E2DB74900D4391B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953BBF4F1E2DB74900D4391B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		953BBF251E2DB74900D4391B = {
+			isa = PBXGroup;
+			children = (
+				953BBF301E2DB74900D4391B /* JHWaveAnimation */,
+				953BBF4A1E2DB74900D4391B /* JHWaveAnimationTests */,
+				953BBF551E2DB74900D4391B /* JHWaveAnimationUITests */,
+				953BBF2F1E2DB74900D4391B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		953BBF2F1E2DB74900D4391B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				953BBF2E1E2DB74900D4391B /* JHWaveAnimation.app */,
+				953BBF471E2DB74900D4391B /* JHWaveAnimationTests.xctest */,
+				953BBF521E2DB74900D4391B /* JHWaveAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		953BBF301E2DB74900D4391B /* JHWaveAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				953BBF6A1E2DC0AA00D4391B /* JHWaveView.h */,
+				953BBF6B1E2DC0AA00D4391B /* JHWaveView.m */,
+				953BBF671E2DC09E00D4391B /* ViewController.h */,
+				953BBF681E2DC09E00D4391B /* ViewController.m */,
+				953BBF341E2DB74900D4391B /* AppDelegate.h */,
+				953BBF351E2DB74900D4391B /* AppDelegate.m */,
+				953BBF3A1E2DB74900D4391B /* Main.storyboard */,
+				953BBF3D1E2DB74900D4391B /* Assets.xcassets */,
+				953BBF3F1E2DB74900D4391B /* LaunchScreen.storyboard */,
+				953BBF421E2DB74900D4391B /* Info.plist */,
+				953BBF311E2DB74900D4391B /* Supporting Files */,
+			);
+			path = JHWaveAnimation;
+			sourceTree = "<group>";
+		};
+		953BBF311E2DB74900D4391B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				953BBF321E2DB74900D4391B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		953BBF4A1E2DB74900D4391B /* JHWaveAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				953BBF4B1E2DB74900D4391B /* JHWaveAnimationTests.m */,
+				953BBF4D1E2DB74900D4391B /* Info.plist */,
+			);
+			path = JHWaveAnimationTests;
+			sourceTree = "<group>";
+		};
+		953BBF551E2DB74900D4391B /* JHWaveAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				953BBF561E2DB74900D4391B /* JHWaveAnimationUITests.m */,
+				953BBF581E2DB74900D4391B /* Info.plist */,
+			);
+			path = JHWaveAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		953BBF2D1E2DB74900D4391B /* JHWaveAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953BBF5B1E2DB74900D4391B /* Build configuration list for PBXNativeTarget "JHWaveAnimation" */;
+			buildPhases = (
+				953BBF2A1E2DB74900D4391B /* Sources */,
+				953BBF2B1E2DB74900D4391B /* Frameworks */,
+				953BBF2C1E2DB74900D4391B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHWaveAnimation;
+			productName = JHWaveAnimation;
+			productReference = 953BBF2E1E2DB74900D4391B /* JHWaveAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		953BBF461E2DB74900D4391B /* JHWaveAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953BBF5E1E2DB74900D4391B /* Build configuration list for PBXNativeTarget "JHWaveAnimationTests" */;
+			buildPhases = (
+				953BBF431E2DB74900D4391B /* Sources */,
+				953BBF441E2DB74900D4391B /* Frameworks */,
+				953BBF451E2DB74900D4391B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				953BBF491E2DB74900D4391B /* PBXTargetDependency */,
+			);
+			name = JHWaveAnimationTests;
+			productName = JHWaveAnimationTests;
+			productReference = 953BBF471E2DB74900D4391B /* JHWaveAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		953BBF511E2DB74900D4391B /* JHWaveAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953BBF611E2DB74900D4391B /* Build configuration list for PBXNativeTarget "JHWaveAnimationUITests" */;
+			buildPhases = (
+				953BBF4E1E2DB74900D4391B /* Sources */,
+				953BBF4F1E2DB74900D4391B /* Frameworks */,
+				953BBF501E2DB74900D4391B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				953BBF541E2DB74900D4391B /* PBXTargetDependency */,
+			);
+			name = JHWaveAnimationUITests;
+			productName = JHWaveAnimationUITests;
+			productReference = 953BBF521E2DB74900D4391B /* JHWaveAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		953BBF261E2DB74900D4391B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Jeavil;
+				TargetAttributes = {
+					953BBF2D1E2DB74900D4391B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7TRWPX778E;
+						ProvisioningStyle = Automatic;
+					};
+					953BBF461E2DB74900D4391B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NTU369WBG6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 953BBF2D1E2DB74900D4391B;
+					};
+					953BBF511E2DB74900D4391B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NTU369WBG6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 953BBF2D1E2DB74900D4391B;
+					};
+				};
+			};
+			buildConfigurationList = 953BBF291E2DB74900D4391B /* Build configuration list for PBXProject "JHWaveAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 953BBF251E2DB74900D4391B;
+			productRefGroup = 953BBF2F1E2DB74900D4391B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				953BBF2D1E2DB74900D4391B /* JHWaveAnimation */,
+				953BBF461E2DB74900D4391B /* JHWaveAnimationTests */,
+				953BBF511E2DB74900D4391B /* JHWaveAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		953BBF2C1E2DB74900D4391B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953BBF411E2DB74900D4391B /* LaunchScreen.storyboard in Resources */,
+				953BBF3E1E2DB74900D4391B /* Assets.xcassets in Resources */,
+				953BBF3C1E2DB74900D4391B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953BBF451E2DB74900D4391B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953BBF501E2DB74900D4391B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		953BBF2A1E2DB74900D4391B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953BBF691E2DC09E00D4391B /* ViewController.m in Sources */,
+				953BBF361E2DB74900D4391B /* AppDelegate.m in Sources */,
+				953BBF331E2DB74900D4391B /* main.m in Sources */,
+				953BBF6C1E2DC0AA00D4391B /* JHWaveView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953BBF431E2DB74900D4391B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953BBF4C1E2DB74900D4391B /* JHWaveAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953BBF4E1E2DB74900D4391B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953BBF571E2DB74900D4391B /* JHWaveAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		953BBF491E2DB74900D4391B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 953BBF2D1E2DB74900D4391B /* JHWaveAnimation */;
+			targetProxy = 953BBF481E2DB74900D4391B /* PBXContainerItemProxy */;
+		};
+		953BBF541E2DB74900D4391B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 953BBF2D1E2DB74900D4391B /* JHWaveAnimation */;
+			targetProxy = 953BBF531E2DB74900D4391B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		953BBF3A1E2DB74900D4391B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				953BBF3B1E2DB74900D4391B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		953BBF3F1E2DB74900D4391B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				953BBF401E2DB74900D4391B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		953BBF591E2DB74900D4391B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		953BBF5A1E2DB74900D4391B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		953BBF5C1E2DB74900D4391B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7TRWPX778E;
+				INFOPLIST_FILE = JHWaveAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeavil.com.JHWaveAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		953BBF5D1E2DB74900D4391B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7TRWPX778E;
+				INFOPLIST_FILE = JHWaveAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeavil.com.JHWaveAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		953BBF5F1E2DB74900D4391B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NTU369WBG6;
+				INFOPLIST_FILE = JHWaveAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeavil.com.JHWaveAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHWaveAnimation.app/JHWaveAnimation";
+			};
+			name = Debug;
+		};
+		953BBF601E2DB74900D4391B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NTU369WBG6;
+				INFOPLIST_FILE = JHWaveAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeavil.com.JHWaveAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHWaveAnimation.app/JHWaveAnimation";
+			};
+			name = Release;
+		};
+		953BBF621E2DB74900D4391B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NTU369WBG6;
+				INFOPLIST_FILE = JHWaveAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeavil.com.JHWaveAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JHWaveAnimation;
+			};
+			name = Debug;
+		};
+		953BBF631E2DB74900D4391B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NTU369WBG6;
+				INFOPLIST_FILE = JHWaveAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeavil.com.JHWaveAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JHWaveAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		953BBF291E2DB74900D4391B /* Build configuration list for PBXProject "JHWaveAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953BBF591E2DB74900D4391B /* Debug */,
+				953BBF5A1E2DB74900D4391B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953BBF5B1E2DB74900D4391B /* Build configuration list for PBXNativeTarget "JHWaveAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953BBF5C1E2DB74900D4391B /* Debug */,
+				953BBF5D1E2DB74900D4391B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		953BBF5E1E2DB74900D4391B /* Build configuration list for PBXNativeTarget "JHWaveAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953BBF5F1E2DB74900D4391B /* Debug */,
+				953BBF601E2DB74900D4391B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		953BBF611E2DB74900D4391B /* Build configuration list for PBXNativeTarget "JHWaveAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953BBF621E2DB74900D4391B /* Debug */,
+				953BBF631E2DB74900D4391B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 953BBF261E2DB74900D4391B /* Project object */;
+}
